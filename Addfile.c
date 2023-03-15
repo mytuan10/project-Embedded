@@ -22,7 +22,6 @@ struct SinhVien
     int age ;
     float math, physics, chemistry;
     float dtb = 0;
-    
 };
 
 typedef SinhVien SV;
@@ -36,7 +35,6 @@ void sapXep(SV a[], int n);
 void xepLoai(SV a[], int n);
 void xepLoaiN(SV a[], int n);
 void xuatFile(SV a[], int n, char fileName[]);
-
 
 int main()
 {
@@ -82,7 +80,7 @@ int main()
                 {
                     printf("\nBan da chon xuat DS Sinhvien");
                     xuatN(a, n);                          // xuat_NDS_SV
-				}
+		}
                 else
                 {
                     printf("Chua nhap gi af: ");
@@ -91,13 +89,13 @@ int main()
                 getch();
                 break;
 
-			case 3:
+	     case 3:
                 if(daNhap)
                 {
                     printf("\nBan da sap xep Sinhvien");
                     sapXep(a, n);                         
                 	xuatN(a, n); 
-				}
+		}
                 else
                 {
                     printf("Chua nhap gi af: ");
@@ -112,7 +110,7 @@ int main()
                     printf("\nBan da chon xep loai Sinhvien");
                     xepLoaiN(a, n);                          
                 	
-				}
+		}
                 else
                 {
                     printf("Chua nhap gi af: ");
@@ -126,33 +124,30 @@ int main()
                 {
                     printf("\nBan da Xuat danh sach Sinhvien");
                     xuatFile(a, n, fileName);                         
-				}
+		}
                 else
                 {
                     printf("Chua nhap gi af: ");
                 }
                 printf("\nXuat DSSV thanh cong vao file %s!", fileName);
-				printf("\nBam phim bat ky de tiep tuc! ");
+		printf("\nBam phim bat ky de tiep tuc! ");
                 getch();
                 break;
-			case 0:
-				printf("\nbam da chon thoat chuong trinh !");
-				getch();
-				return 0;
+	     case 0:
+			printf("\nbam da chon thoat chuong trinh !");
+			getch();
+			return 0;
 				
-            default:
-                printf("\nKhong co chuc nang nay!");
-                printf("\nBam phim bat ky de tiep tuc!");
-                getch();
-                break;
+             default:
+                	printf("\nKhong co chuc nang nay!");
+                	printf("\nBam phim bat ky de tiep tuc!");
+                	getch();
+                	break;
         }
-
     }
      
-
     return 0;
 }
-
 
 void nhap(SV &sv)
 {
@@ -220,8 +215,7 @@ void sapXep(SV a[], int n)								// tang dan
  				tmp  = a[j];
 				a[j] = a[i];
 				a[i] = tmp ;	
-			}
- 			
+			}	
 		}
 	}
 }
@@ -240,7 +234,6 @@ void xepLoai(SV sv)
 	printf("Loai Yeu\n");
 } 
  
- 
 void xepLoaiN(SV a[], int n)
 {
 	printf("\n****************************************************\n");
@@ -251,7 +244,6 @@ void xepLoaiN(SV a[], int n)
 	}
 	printf("\n****************************************************\n");
 }
-
 
 void xuatFile(SV a[], int n,char fileName[])
 {
