@@ -134,15 +134,15 @@ int main()
                 getch();
                 break;
 	     case 0:
-			printf("\nbam da chon thoat chuong trinh !");
-			getch();
-			return 0;
+		printf("\nbam da chon thoat chuong trinh !");
+		getch();
+		return 0;
 				
              default:
-                	printf("\nKhong co chuc nang nay!");
-                	printf("\nBam phim bat ky de tiep tuc!");
-                	getch();
-                	break;
+                printf("\nKhong co chuc nang nay!");
+                printf("\nBam phim bat ky de tiep tuc!");
+                getch();
+                break;
         }
     }
      
