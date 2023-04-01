@@ -30,13 +30,14 @@ int main()
         printf("Nhap so luong SV \n");
         scanf("%d", &n);
 
-    } while {
+    } 
+    while {
         
 
 
         
-    };
-    
+    }
+    return 0;
 }
 
 void nhap(int n)

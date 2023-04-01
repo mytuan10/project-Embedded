@@ -165,7 +165,8 @@ void nhap(SV &sv)
     scanf("%f%f%f", &sv.math, &sv.physics, &sv.chemistry);     // math, physics, chemistry
     tinhDTB(sv);
 }
-
+// 
+// 
 void nhapN(SV a[], int n)
 {
 	printf("\n****************************************************\n");
