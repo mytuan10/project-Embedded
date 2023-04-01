@@ -19,7 +19,7 @@ void dtb(SV &sv);
 void xepLoai(SV a[], int n);
 void xuatFile(SV a[], int n, char FileName[]);
 
-int main()
+int main(void)
 {
     int key;
     char fileName[] = "new_file.txt";
@@ -33,7 +33,7 @@ int main()
     } 
     while {
         
-        
+        printf("");
     }
     return 0;
 }
