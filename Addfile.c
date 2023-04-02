@@ -63,7 +63,7 @@ int main()
         printf("*****         0. Thoat                         *****\n");
         printf("****************************************************\n");
         printf("*****         Nhap lua chon cua ban            *****\n");
-        scanf("%d",&key);
+        scanf("%d", &key);
         switch(key)
         {
             case 1:
@@ -104,7 +104,7 @@ int main()
                 getch();
                 break;
 
-			case 4:
+	     case 4:
                 if(daNhap)
                 {
                     printf("\nBan da chon xep loai Sinhvien");
@@ -119,7 +119,7 @@ int main()
                 getch();
                 break;
                 
-			case 5:
+	     case 5:
                 if(daNhap)
                 {
                     printf("\nBan da Xuat danh sach Sinhvien");
